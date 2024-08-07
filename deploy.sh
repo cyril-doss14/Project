@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Push the Docker image to the dev repository on Docker Hub
-docker tag myimage:latest docker push cyrildoss14/prod:latest
-docker push docker push cyrildoss14/prod:latest
+docker tag myimage:latest docker push cyrildoss14/dev:latest
+docker push docker push cyrildoss14/dev:latest
 
 # Check if the push was successful
 if [ $? -eq 0 ]; then
